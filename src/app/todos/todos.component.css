@@ -1,0 +1,70 @@
+h3 {
+  text-align: center;
+  border-bottom: 1px solid #7e827a;
+}
+form {
+  padding: 1em;
+  height: 4.2em;
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+form input {
+  color: #e3cda4;
+  background: #ddd;
+  border: 1px solid #7e827a;
+  outline: none;
+}
+form input[type='text'] {
+  flex: 6;
+  border-radius: 0.4em 0 0 0.4em;
+  text-indent: 0.4em;
+  color: #222;
+  transition: border 0.33s ease-in-out;
+}
+form input[type='text']:focus {
+  border: 2px solid #c77966;
+}
+form input[type='submit'] {
+  flex: 1;
+  border-radius: 0 0.4em 0.4em 0;
+  border-left: none;
+  background: inherit;
+  transition: background 0.33s ease-in-out;
+}
+form input[type='submit']:hover {
+  background: #c77966;
+}
+ul {
+  width: 100%;
+  list-style: none;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul li {
+  padding: 1em;
+  margin: 1em 0;
+  width: 65%;
+  border-radius: 0.6em;
+  border: 1px dashed #7e827a;
+  display: flex;
+}
+ul li p {
+  flex: 7;
+}
+ul li button {
+  flex: 1;
+  color: #e3cda4;
+  height: 2em;
+  border: 1px solid #703030;
+  border-radius: 0.6em;
+  outline: none;
+  background: inherit;
+  transition: background 0.33s ease-in-out;
+}
+ul li button:hover {
+  background: #703030;
+}
