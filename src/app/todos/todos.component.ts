@@ -14,16 +14,7 @@ export class TodosComponent implements OnInit {
   ngOnInit() {
     this.todos = [
       {
-        text: 'Prepare the project'
-      },
-      {
-        text: 'Make basic components'
-      },
-      {
-        text: 'Tie it up'
-      },
-      {
-        text: 'git commit'
+        text: 'Add a todo'
       }
     ]
   }
